@@ -1,0 +1,60 @@
+{
+  "name": "new-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "aos": "^3.0.0-beta.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-particles-js": "^2.6.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "homepage": "https://hleebarton97.github.io/hlb3.me",
+  "scripts": {
+    "start": "npm run code-analysis && npm run test && react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "test:nowatch": "set CI=true && react-scripts test --env=jsdom",
+    "code-analysis": "standard",
+    "eject": "react-scripts eject"
+  },
+  "pre-commit": [
+    "test:nowatch",
+    "code-analysis"
+  ],
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "canvas": "^2.5.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "gh-pages": "^2.0.1",
+    "pre-commit": "^1.2.2",
+    "standard": "^12.0.1"
+  }
+}

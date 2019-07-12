@@ -1,0 +1,83 @@
+/* Developed by */
+/* Henry Lee Barton III */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300|Lekton');
+
+body { margin: 0; padding: 0; font-family: 'Montserrat Alternates', sans-serif; background-color: #000000; overflow-x: hidden; }
+
+.particles { position: fixed; right: 0; bottom: 0; left: 0; z-index: -1; background-size: cover; height: 100%; width: 100%; }
+
+.home { color: #FFFFFF; }
+  .home .intro { height: stretch; }
+  .home .about { text-align: center; }
+
+.flex { display: flex; }
+.flex.center { display: flex; justify-content: center; align-items: center; }
+.flex.center.column { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+
+.flex-self.left { align-self: flex-start; }
+.flex-self.right { align-self: flex-end; text-align: right; }
+
+.block { display: block; }
+
+.bottom { position: fixed; bottom: 0; }
+.floor { position: absolute; bottom: 0; }
+
+.text-highlight { color: #0094FF; }
+.text-reg.xlarge { font-family: 'Lekton', sans-serif; font-weight: normal; font-size: 32px; }
+.text-reg.large { font-family: 'Lekton', sans-serif; font-weight: normal; font-size: 22px; }
+.text.xlarge { font-weight: normal; font-size: 32px; }
+.text.large { font-weight: normal; font-size: 22px; }
+.text.med { font-weight: normal; font-size: 18px; }
+.text.small { font-weight: normal; font-size: 12px; }
+
+.card.large { width: 650px; margin: 0 100px 75px 100px; }
+.card.med { width: 350px; }
+.card.small { width: 200px; }
+.card.header { margin: 0; text-decoration: underline; }
+
+.name { padding: 0; margin: 0; text-align: center; }
+
+.logo.small { width: 200px; }
+.logo.medium { width: 300px; }
+.logo.large { width: 400px; }
+
+.container.socials { margin-top: 15px; }
+.container.cards { margin-top: 75px; width: stretch; }
+
+.icon a, a:link, a:visited { color: white; text-decoration: none; }
+
+.icon.social { margin: 10px; }
+  .icon.social:hover { cursor: pointer; color: #0094FF }
+.icon.floating { margin-bottom: 50px; animation: float 3s ease-in-out infinite }
+
+/* Animations */
+
+@keyframes float {
+  0% { transform: translateY(0px) }
+  50% { transform: translateY(-20px) }
+  100% { transform: translateY(0px) }
+}
+
+/* Screen Size Adjustments */
+
+@media screen and (max-width: 500px) {
+  .text-reg.xlarge { font-size: 24px }
+  .text-reg.large { font-size: 18px; }
+  .home .about { margin: 0; }
+}
+
+@media screen and (max-width: 350px) {
+  h1 { font-size: 20px; }
+
+  .logo.large { width: 350px; }
+  .logo.medium { width: 250px; }
+  .logo.small { width: 150px; }
+
+  .text-reg.xlarge { font-size: 20px; }
+  .text-reg.large { font-size: 14px; }
+
+
+  .home .about { margin: 0; }
+}
