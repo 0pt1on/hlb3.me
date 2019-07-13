@@ -14,7 +14,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://hleebarton97.github.io/hlb3.me",
+  "homepage": "https://hleebarton97.github.io",
   "scripts": {
     "start": "npm run code-analysis && npm run test && react-scripts start",
     "build": "react-scripts build",
