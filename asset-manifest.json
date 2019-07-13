@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hlb3.me/static/css/main.05008017.chunk.css",
-    "main.js": "/hlb3.me/static/js/main.a557ff8f.chunk.js",
-    "main.js.map": "/hlb3.me/static/js/main.a557ff8f.chunk.js.map",
-    "runtime~main.js": "/hlb3.me/static/js/runtime~main.3197d7f1.js",
-    "runtime~main.js.map": "/hlb3.me/static/js/runtime~main.3197d7f1.js.map",
-    "static/css/2.06565635.chunk.css": "/hlb3.me/static/css/2.06565635.chunk.css",
-    "static/js/2.f14b4cb2.chunk.js": "/hlb3.me/static/js/2.f14b4cb2.chunk.js",
-    "static/js/2.f14b4cb2.chunk.js.map": "/hlb3.me/static/js/2.f14b4cb2.chunk.js.map",
-    "index.html": "/hlb3.me/index.html",
-    "precache-manifest.4885eaa48203ede4bcb39414cd7ce5ef.js": "/hlb3.me/precache-manifest.4885eaa48203ede4bcb39414cd7ce5ef.js",
-    "service-worker.js": "/hlb3.me/service-worker.js",
-    "static/css/2.06565635.chunk.css.map": "/hlb3.me/static/css/2.06565635.chunk.css.map",
-    "static/css/main.05008017.chunk.css.map": "/hlb3.me/static/css/main.05008017.chunk.css.map",
-    "static/media/melee_beard.png": "/hlb3.me/static/media/melee_beard.7a4c26b8.png"
+    "main.css": "/static/css/main.05008017.chunk.css",
+    "main.js": "/static/js/main.a557ff8f.chunk.js",
+    "main.js.map": "/static/js/main.a557ff8f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.06565635.chunk.css": "/static/css/2.06565635.chunk.css",
+    "static/js/2.f14b4cb2.chunk.js": "/static/js/2.f14b4cb2.chunk.js",
+    "static/js/2.f14b4cb2.chunk.js.map": "/static/js/2.f14b4cb2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f051521948b864f023fe6770043984bd.js": "/precache-manifest.f051521948b864f023fe6770043984bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.06565635.chunk.css.map": "/static/css/2.06565635.chunk.css.map",
+    "static/css/main.05008017.chunk.css.map": "/static/css/main.05008017.chunk.css.map",
+    "static/media/melee_beard.png": "/static/media/melee_beard.7a4c26b8.png"
   }
 }
